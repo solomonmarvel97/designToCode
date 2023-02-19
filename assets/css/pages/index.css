@@ -1,0 +1,75 @@
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 231px;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.hero > div {
+    flex: 1;
+}
+
+.hero .title {
+    font-size: 58px;
+    line-height: 66px;
+    margin-bottom: 36px;
+}
+
+.hero .description {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 53px;
+}
+
+.hero .email-collector {
+    border-radius: 15px;
+    background: #FAFAFA;
+    border: 1px solid #A1A1AA;
+    width: 100%;
+    display: flex;
+    gap: 37px;
+    flex-wrap: wrap;
+    margin-bottom: 42px;
+    padding: 8px;
+    padding-left: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.hero .metrics {
+    display: flex;
+    justify-content: space-between;
+    gap: 61px;
+    flex-wrap: wrap;
+}
+
+.hero .metrics > div {
+    flex: 1;
+    gap: 12px;
+    display: flex;
+    align-items: center;
+}
+
+
+.hero .metrics > div > h1 {
+    font-size: 42px;
+}
+
+.hero .metrics > div > p {
+    font-size: 13px;
+}
+
+.hero img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 1000px) {
+    .hero {
+        flex-direction: column-reverse;
+        gap: 43.57px;
+    }
+}

@@ -1,0 +1,39 @@
+@import url(./variable.css);
+
+
+button {
+    padding: 16px;
+    gap: 10px;
+    min-width: 179px;
+    height: 56px;
+    background: #18181B;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: 900;
+    color: white !important
+}
+
+.btn-primary {
+    color: var(--primary)
+}
+
+.btn-primary:hover {
+    color: var(--primary-tint)
+}
+
+.btn-secondary {
+    
+}
+
+form {
+
+}
+
+form label {
+
+}
+
+form .title {
+
+}
